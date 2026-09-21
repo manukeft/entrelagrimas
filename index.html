@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabrizio — Corrección, edición y maquetación</title>
+<meta name="description" content="Corrección ortotipográfica, edición de estilo, maquetación, diseño de portada, traducción y lectura beta para autores independientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__mark" aria-label="Inicio">
+        <img src="images/favicon.ico" alt="" class="nav__logo">
+    </a>
+    <nav class="nav__links" aria-label="Navegación principal">
+      <a href="#como-trabajo" data-nav>Cómo trabajo</a>
+      <a href="#servicios" data-nav>Servicios</a>
+      <a href="#trabajos" data-nav>Trabajos realizados</a>
+      <a href="#contacto" data-nav>Contacto</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinksMobile" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav__links nav__links--mobile" id="navLinksMobile" aria-label="Navegación móvil">
+    <a href="#como-trabajo" data-nav>Cómo trabajo</a>
+    <a href="#servicios" data-nav>Servicios</a>
+    <a href="#trabajos" data-nav>Trabajos realizados</a>
+    <a href="#contacto" data-nav>Contacto</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="sobre-mi__photo">
+      <img src="images/fabri.jpg" alt="Fabrizio">
+    </div>
+
+    <div class="sobre-mi__text">
+      <h2>¡Hola! Soy Fabrizio</h2>
+      <p>Estudio Letras en la Universidad de Buenos Aires y me dedico a la corrección, edición y maquetación de
+        textos creativos, con especial interés en acompañar a escritores
+        nuevos e independientes.</p>
+      <p>Por fuera del trabajo editorial gestiono
+        <a href="https://instagram.com/entrelagrimaslibros" target="_blank" rel="noopener"><b>@entrelagrimaslibros</b></a>,
+        un emprendimiento de libros usados que me mantiene en contacto con obras de distintos estilos y tradiciones literarias.
+        También comparto mi mirada sobre la literatura en mi canal de YouTube
+        <a href="https://youtube.com/@fabrientrelagrimas" target="_blank" rel="noopener"><b>@fabrientrelagrimas</b></a>.</p>
+      <p>
+        Mi propuesta abarca todo el proceso que requiere un libro: desde pulir la estructura con clínica literaria y lectura beta, pasando por la edición, corrección y traducción, hasta la maquetación final de tu obra.
+      </p>
+      <p>
+        A continuación verás todos los servicios y sus detalles.
+        <br><br>
+        ¡Bienvenido!
+
+      </p>
+    </div>
+  </section>
+
+  <section class="como-trabajo" id="como-trabajo">
+    <div class="section__head">
+      <p class="section__folio">01</p>
+      <h2>Cómo trabajo</h2>
+    </div>
+
+    <ol class="como-trabajo__steps">
+      <li>
+        <span class="como-trabajo__num">1</span>
+        <div>
+          <h3>Lorem</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui labore itaque molestiae eum, eius eligendi culpa expedita harum quos, quaerat veniam id est, aperiam nisi vero soluta blanditiis ipsa consequatur!</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="section__head">
+      <p class="section__folio">02</p>
+      <h2>Servicios</h2>
+    </div>
+
+    <p class="servicios__intro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sed officiis ipsum voluptatem recusandae accusamus totam eveniet in sunt illum, dolor exercitationem ut et repellendus nesciunt dolore fuga praesentium dolorem!</p>
+
+    <div class="servicios__grid" id="serviciosGrid">
+      <article class="servicio-card" id="servicio-lectura">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-lectura-full">
+          <span class="servicio-card__mark">βeta</span>
+          <h3>Lectura beta y clínica de obra</h3>
+          <p class="servicio-card__teaser">Impresión general o acompañamiento tipo taller.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-lectura-full" hidden>
+          <p>Si tu historia aún no está lista, y necesitas una <b>opinión profesional y fundamentada</b> acerca de la impresión que genera, es posible contratarme como <b>lector beta</b>. Es decir, leeré tu obra y marcaré detalladamente aquellos puntos a mejorar, ya sea la construcción de personajes, el lenguaje, la trama, la división de capítulos, la coherencia y cohesión, la fluidez, entre otras cuestiones fundamentales.</p>
+          <p>En caso de necesitar una opinión profesional acerca de cómo seguir tu obra, qué recursos utilizar, cuáles son las reformulaciones que necesita tu obra, la mejor opción es la <b>clínica de obra</b>. Este espacio funciona como un <b>taller de escritura</b>, cuyo objetivo es encauzar y guiar al autor para que pueda terminar o mejorar su obra lo mejor posible.</p>
+          <p>Mientras que la lectura beta es una impresión, la clínica de obra es un acompañamiento.</p>
+          <p class="servicio-card__meta"><b>Valores de referencia:</b> lectura beta, cada 10.000 palabras $40. Clínica de obra, $150 para obras de hasta 35.000 palabras.<br><b>Tiempo de entrega y duración:</b> lectura beta, de 15 a 25 días. El objetivo es que el autor termine su obra, por lo que es indefinido.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+
+      <article class="servicio-card" id="servicio-correccion">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-correccion-full">
+          <span class="servicio-card__mark">sp · gr</span>
+          <h3>Corrección ortotipográfica</h3>
+          <p class="servicio-card__teaser">Ortografía, puntuación y uso ortotipográfico según la RAE.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-correccion-full" hidden>
+          <p>La <b>corrección ortotipográfica</b> es el pulido final y exhaustivo que todo manuscrito necesita para alcanzar un estándar profesional. Me encargo de revisar minuciosamente la ortografía, la puntuación, la sintaxis y el uso ortotípico de signos (rayas de diálogo, comillas, cursivas) según la normativa vigente de la RAE (salvo ciertas excepciones con modismos o neologismos, y otro tipo de juegos léxicos o decisiones del autor). Mi objetivo es garantizar la máxima pulcritud técnica en tu texto, respetando siempre la voz y la intención del autor.</p>
+          <p>Para desarrollarlo utilizo un <b>sistema de colores</b> referente a cada uno de los errores o sugerencias de corrección que haya encontrado en cada puntuación del texto. Examino los errores recurrentes y los redacto en un informe de lectura, brindándole las herramientas al escritor para que en sus próximos escritos no cometa los mismos errores.</p>
+          <p class="servicio-card__meta"><b>Valor de referencia:</b> 10.000 palabras (ortografía + estilo), desde $100. <b>DESCUENTO POR CANTIDAD.</b><br><b>Tiempo de entrega:</b> varía según la extensión del texto y la fluidez del intercambio con el autor. Como referencia, un manuscrito de 30.000 palabras suele demorar entre 15 y 25 días a partir del inicio del trabajo.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+
+      <article class="servicio-card" id="servicio-edicion">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-edicion-full">
+          <span class="servicio-card__mark">^</span>
+          <h3>Edición de estilo</h3>
+          <p class="servicio-card__teaser">Cohesión, ritmo y precisión, sin perder tu voz.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-edicion-full" hidden>
+          <p>La <b>edición de estilo</b> es la etapa en la que la prosa gana fluidez, precisión y expresividad. Sin alterar la voz narrativa del autor, trabajo sobre la estructura del texto para optimizar la cohesión y el ritmo: elimino redundancias, ajusto repeticiones, corrijo cacofonías y resuelvo ambigüedades sintácticas. Trabajo en al menos dos etapas: una primera en donde no toco nada del texto, solo hago marcas, ya que las reformulaciones extensas, en general, las dejo en manos del escritor, y una segunda, donde modifico todo el texto acorde a las marcas de la primera etapa. Mi objetivo es que tu manuscrito alcance su máxima potencia literaria, logrando una lectura clara y profesional.</p>
+          <p class="servicio-card__meta"><b>Valor de referencia:</b> 10.000 palabras (ortografía + estilo), desde $100. <b>DESCUENTO POR CANTIDAD.</b><br><b>Tiempo de entrega:</b> varía según la extensión del texto y la fluidez del intercambio con el autor. Como referencia, un manuscrito de 30.000 palabras suele demorar entre 15 y 25 días a partir del inicio del trabajo.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+
+      <article class="servicio-card" id="servicio-maquetacion">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-maquetacion-full">
+          <span class="servicio-card__mark">¶</span>
+          <h3>Maquetación</h3>
+          <p class="servicio-card__teaser">Diagramación para impresión y formato digital.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-maquetacion-full" hidden>
+          <p>Es el proceso que transforma un manuscrito en un libro listo para las manos del lector. Aquí me encargo de diagramar el interior de tu obra tanto para <b>impresión física</b> como para <b>formato digital</b> (ePub y Kindle), cuidando las tipografías, los márgenes, las sangrías, la jerarquía de títulos y el equilibrio visual de cada página. El objetivo es lograr un <b>diseño estético y profesional</b> que potencie la obra.</p>
+          <p class="servicio-card__meta"><b>Valor de referencia:</b> Maquetación narrativa simple (novela, ensayo, poesía / solo texto corrido), cada 10.000 palabras $40. Maquetación compleja (libros académicos, notas al pie, tablas, imágenes, recuadros), cada 10.000 palabras $70.<br><b>Tiempo de entrega:</b> de 10 a 15 días.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+
+      <article class="servicio-card" id="servicio-portada">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-portada-full">
+          <span class="servicio-card__mark">portada</span>
+          <h3>Diseño de portada</h3>
+          <p class="servicio-card__teaser">El primer contacto del lector con tu obra.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-portada-full" hidden>
+          <p>Una vez que la obra está lista para presentarse, queda un paso decisivo: la <b>portada</b>. Como es sabido, se trata del <b>primer contacto</b> que el lector tendrá con la obra; por lo tanto, su elaboración debe ser acorde con el contenido del texto. En general, se desaconseja el uso de inteligencia artificial en esta etapa, ya que suele percibirse como una falta de cuidado o desinterés por parte del autor.</p>
+          <p>Las formas de concebir una portada son infinitas, y mi labor es asegurarme de <b>transmitir con precisión la esencia de tu texto</b>.</p>
+          <p class="servicio-card__meta"><b>Valor de referencia:</b> portada digital (ebook). Desde $60 (varía si requiere licencias o dibujos personalizados). Portada completa (impresión + digital), desde $100.<br><b>Tiempo de entrega:</b> de 15 a 30 días.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+
+      <article class="servicio-card" id="servicio-traduccion">
+        <button class="servicio-card__trigger" aria-expanded="false" aria-controls="servicio-traduccion-full">
+          <span class="servicio-card__mark">en ↔ es</span>
+          <h3>Traducción español / inglés</h3>
+          <p class="servicio-card__teaser">Traducción literaria en ambos sentidos.</p>
+        </button>
+        <div class="servicio-card__full" id="servicio-traduccion-full" hidden>
+          <p>La <b>traducción</b> al idioma más hablado del mundo abre importantísimas oportunidades para la <b>expansión internacional</b> de tu obra. Por eso ofrezco un servicio de traducción especializado que tiene como pilar fundamental la preservación de la <b>intención original del autor</b> y el respeto por la literariedad del texto en la lengua de destino.</p>
+          <p class="servicio-card__meta"><b>Valor de referencia:</b> Cada 10.000 palabras, desde $300.<br><b>Tiempo de entrega:</b> indefinido.</p>
+          <button class="servicio-card__close">← Volver a todos los servicios</button>
+        </div>
+      </article>
+    </div>
+
+    <div class="servicios__cta">
+      <a href="#contacto" class="btn btn--primary">Cotizá tu proyecto</a>
+    </div>
+  </section>
+
+  <section class="trabajos" id="trabajos">
+    <div class="section__head">
+      <p class="section__folio">03</p>
+      <h2>Trabajos realizados</h2>
+    </div>
+
+    <!-- Placeholder: reemplazar por proyectos reales (título, categoría y, si hay, imagen de tapa) -->
+    <div class="trabajos__grid">
+      <article class="trabajo">
+        <div class="trabajo__swatch">Novela</div>
+        <h3>Título del trabajo</h3>
+        <p>Corrección · 2025</p>
+      </article>
+      <article class="trabajo">
+        <div class="trabajo__swatch">Novela</div>
+        <h3>Título del trabajo</h3>
+        <p>Lectura beta · 2025</p>
+      </article>
+      <article class="trabajo">
+        <div class="trabajo__swatch">Novela</div>
+        <h3>Título del trabajo</h3>
+        <p>Maquetación · 2024</p>
+      </article>
+      <article class="trabajo">
+        <div class="trabajo__swatch">Novela</div>
+        <h3>Título del trabajo</h3>
+        <p>Traducción en ↔ es · 2024</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="referencias" id="referencias">
+    <div class="section__head">
+      <p class="section__folio">04</p>
+      <h2>Referencias</h2>
+    </div>
+
+    <div class="referencias__list">
+      <blockquote class="referencia">
+        <p>“Sus correcciones son impecables; nada de su trabajo es de adorno. Está en todos los detalles y se toma el tiempo de marcar hasta el último de los puntos a mejorar.”</p>
+        <cite>— Javier, Argentina</cite>
+      </blockquote>
+      <blockquote class="referencia">
+        <p>“¡El mejor de todos! Súper profesional, atento. Excelente editor y corrector. Recomendadísimo.”</p>
+        <cite>— Carlos, México</cite>
+      </blockquote>
+      <blockquote class="referencia">
+        <p>“Excelente editor y corrector de texto; es un campeón. Súper recomendado.”</p>
+        <cite>— Héctor, Nicaragua</cite>
+      </blockquote>
+      <blockquote class="referencia">
+        <p>“Otros solo reciben el manuscrito y desaparecen hasta el día de la entrega; él es sumamente cercano y entregado, te mantiene al tanto de los avances y respeta profundamente la voz del autor.”</p>
+        <cite>— Mey, México</cite>
+      </blockquote>
+      <blockquote class="referencia">
+        <p>“Explica muy bien cada corrección, lo cual permite que aprendas en el proceso. Además es una persona muy amable, atenta y con excelente trato.”</p>
+        <cite>— Antonella, Uruguay</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="section__head">
+      <p class="section__folio">05</p>
+      <h2>Trabajemos juntos</h2>
+    </div>
+
+    <div class="contacto__grid">
+      <div class="contacto__info">
+        <p>Contame de qué se trata tu proyecto: tipo de texto, extensión aproximada y qué servicio necesitás. Te respondo con un presupuesto y un tiempo estimado.</p>
+        <p class="contacto__email"><a href="mailto:fabri@gmail.com">fabri@gmail.com</a></p>
+        <ul class="contacto__social">
+          <li><a href="https://instagram.com/entrelagrimaslibros" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://youtube.com/@fabrientrelagrimas" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+
+      <form class="contacto__form" id="contactForm">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="servicio">Servicio</label>
+        <select id="servicio" name="servicio">
+          <option value="lectura-beta">Lectura beta y clínica de obra</option>
+          <option value="correccion">Corrección ortotipográfica</option>
+          <option value="edicion">Edición de estilo</option>
+          <option value="maquetacion">Maquetación</option>
+          <option value="portada">Diseño de portada</option>
+          <option value="traduccion">Traducción español / inglés</option>
+          <option value="otro">Otro / no estoy segurx</option>
+        </select>
+
+        <label for="mensaje">Contame sobre tu proyecto</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn--primary">Enviar</button>
+        <p class="contacto__status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Fabrizio. Corrección, edición y maquetación.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
